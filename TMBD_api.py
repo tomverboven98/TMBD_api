@@ -3,8 +3,7 @@ import json
 import requests as req
 
 # Parameters
-token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMzIxZTllMGNlZDE3ZGU1YTQ5ZGMwMzZlNzlmODQwOSIsInN1YiI6IjVmNzg2ODRkMzQyOWZmMDAzN2I0NjcwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mjU3MyoGL75Y6_e-hJ-9a_X4Bn1tCxAbd0hm6nl9tZE"
-#token = input("Wat is uw v4Read Access Token?: ")
+token = input("Wat is uw v4Read Access Token?: ")
 
 # Setup header for auth.
 header = {'Authorization': f'Bearer {token}',
